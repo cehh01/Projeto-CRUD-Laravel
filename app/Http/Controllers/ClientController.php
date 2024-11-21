@@ -29,7 +29,7 @@ class ClientController extends Controller
             'cidade' => 'required'
         ]);
 
-        $newClient = Client::create($data); //CRIA O NOVO CADASTRO NO DATABASE
+        $newClient = Client::create($data); //CRIA UM NOVO CADASTRO NO DATABASE
 
         return redirect(route('client.index')); //REDIRECIONAR PARA A ROTA COM VIEW INDEX
     }
