@@ -41,7 +41,7 @@
                 </thead>
 
                 <tbody>
-                    @foreach ($client as $client) {{--NÃO SEI--}}
+                    @foreach ($client as $client)
                         <tr>
                             <td>{{$client->id}}</td>
                             <td>{{$client->nome}}</td>
